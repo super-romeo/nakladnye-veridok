@@ -8,6 +8,10 @@
 <meta name="description" content="Для ресторанов на iiko или Syrve: сфотографируйте накладную поставщика — получите приходную накладную с сопоставленной номенклатурой.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -62,38 +66,68 @@
 </head>
 <body>
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Накладные в iiko</a></div>
-  <nav class="top"><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Накладные в iiko</a>
+  <nav><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Бумажная накладная поставщика — в iiko за минуту: фото, сопоставление номенклатуры, приходная накладная</h1>
-    <p class="sub">Для ресторанов и кафе до 50 человек на iiko или Syrve: сфотографируйте накладную на телефон, позиции распознаются и сопоставляются с вашей номенклатурой, а приходная накладная загружается в iiko. Ручного ввода остаётся только проверка.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Мне это нужно</a>
-    <p class="cta-note">Сервис в подготовке · Оплата на этой странице не принимается</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Для ресторанов и кафе</p>
+      <h1 class="rise" style="--i:1" data-len="xlong">Бумажная накладная поставщика&nbsp;<span class="soft">— в iiko за минуту: фото, сопоставление номенклатуры, приходная накладная</span></h1>
+      <p class="rise" style="--i:2">Для ресторанов и кафе до 50 человек на iiko или Syrve: сфотографируйте накладную на телефон, позиции распознаются и сопоставляются с вашей номенклатурой, а приходная накладная загружается в iiko. Ручного ввода остаётся только проверка.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Мне это нужно</a>
+      <p class="meta rise" style="--i:4">Сервис в подготовке · Оплата на этой странице не принимается</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="130" y="165" font-size="34" fill="#0a1524" font-weight="600">приходная накладная</text><line x1="110" y1="210" x2="1090" y2="210" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><polyline points="140,282 148,292 164,272" fill="none" stroke="#12397a" stroke-width="4" /><text x="200" y="300" font-size="30" fill="#0a1524">Фото или PDF</text><rect x="130" y="360" width="44" height="44" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><polyline points="140,382 148,392 164,372" fill="none" stroke="#12397a" stroke-width="4" /><text x="200" y="400" font-size="30" fill="#0a1524">Расхождения</text><rect x="130" y="460" width="44" height="44" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><text x="200" y="500" font-size="30" fill="#0a1524">на приёмке</text><rect x="130" y="560" width="44" height="44" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><text x="200" y="600" font-size="30" fill="#0a1524">в iiko</text><rect x="720" y="260" width="360" height="400" fill="#dfe8f7" rx="20" /><text x="750" y="320" font-size="30" fill="#0a1524" font-weight="600">iiko</text><rect x="760" y="470" width="48" height="150" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="835" y="520" width="48" height="100" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="910" y="410" width="48" height="210" fill="#12397a" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="985" y="540" width="48" height="80" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="2" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Для</dt><dd>Ресторанов и кафе</dd></div>
+      <div><dt>Накладная</dt><dd>Приходная накладная</dd></div>
+      <div><dt>Фото</dt><dd>Сфотографируйте накладную</dd></div>
+      <div><dt>Сервис</dt><dd>Сервис в подготовке</dd></div>
+    </dl>
+  </section>
 
   <section id="chto" data-view="features_view">
-    <h2>Что вы получаете</h2>
-    <div class="grid">
-      <div class="card"><b>Фото или PDF</b><span>Накладная фотографируется телефоном при приёмке или загружается файлом.</span><br><a class="btn" href="price.html" data-ev="feature_foto">Мне это нужно</a></div>
-      <div class="card"><b>Сопоставление номенклатуры</b><span>Позиции поставщика сопоставляются с вашей номенклатурой; программа запоминает сопоставления.</span><br><a class="btn" href="price.html" data-ev="feature_sopostavlenie">Мне это нужно</a></div>
-      <div class="card"><b>Приходная накладная в iiko</b><span>Готовая приходная накладная загружается в iiko или Syrve на нужный склад.</span><br><a class="btn" href="price.html" data-ev="feature_iiko">Мне это нужно</a></div>
-      <div class="card"><b>Расхождения</b><span>Цены выше обычных и позиции не из заказа отмечаются сразу.</span><br><a class="btn" href="price.html" data-ev="feature_raznica">Мне это нужно</a></div>
+    <div class="stack"><h2>Что вы получаете</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="32" fill="#0a1524" font-weight="600">Фото или PDF</text><polygon points="200,460 200,420 600,420 600,460 520,460 520,500 280,500 280,460" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><polygon points="400,200 400,360 360,360 400,400 440,360 400,360" fill="#12397a" /><rect x="250" y="220" width="80" height="16" fill="#dde2ea" rx="8" /><rect x="470" y="240" width="90" height="16" fill="#b9c3d2" rx="8" /></svg></div>
+        <h3>Фото или PDF</h3><p>Накладная фотографируется телефоном при приёмке или загружается файлом.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_foto">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><text x="70" y="120" font-size="30" fill="#0a1524" font-weight="600">Сопоставление номенклатуры</text><rect x="60" y="180" width="280" height="340" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><rect x="460" y="180" width="280" height="340" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><rect x="90" y="250" width="180" height="18" fill="#dde2ea" rx="8" /><rect x="490" y="250" width="160" height="18" fill="#b9c3d2" rx="8" /><line x1="350" y1="259" x2="450" y2="259" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="90" y="320" width="180" height="18" fill="#dde2ea" rx="8" /><rect x="490" y="320" width="160" height="18" fill="#b9c3d2" rx="8" /><line x1="350" y1="329" x2="450" y2="329" fill="none" stroke="#12397a" stroke-width="3" /><rect x="90" y="390" width="180" height="18" fill="#dde2ea" rx="8" /><rect x="490" y="390" width="160" height="18" fill="#b9c3d2" rx="8" /><line x1="350" y1="399" x2="450" y2="399" fill="none" stroke="#dde2ea" stroke-width="3" /><polygon points="430,300 460,340 430,380" fill="#12397a" /></svg></div>
+        <h3>Сопоставление номенклатуры</h3><p>Позиции поставщика сопоставляются с вашей номенклатурой; программа запоминает сопоставления.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_sopostavlenie">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="32" fill="#0a1524" font-weight="600">Приходная накладная</text><rect x="140" y="210" width="420" height="22" fill="#dde2ea" rx="8" /><rect x="140" y="265" width="360" height="22" fill="#b9c3d2" rx="8" /><rect x="140" y="320" width="280" height="22" fill="#dde2ea" rx="8" /><rect x="140" y="375" width="390" height="22" fill="#b9c3d2" rx="8" /><circle cx="560" cy="470" r="42" fill="#dfe8f7" stroke="#12397a" stroke-width="4" /><polyline points="542,470 554,484 582,450" fill="none" stroke="#12397a" stroke-width="5" /></svg></div>
+        <h3>Приходная накладная в iiko</h3><p>Готовая приходная накладная загружается в iiko или Syrve на нужный склад.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_iiko">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="32" fill="#0a1524" font-weight="600">Расхождения</text><rect x="140" y="220" width="460" height="48" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="2" /><circle cx="176" cy="244" r="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /><rect x="140" y="300" width="400" height="48" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="2" /><polygon points="160,308 160,340 200,324" fill="#12397a" /><rect x="140" y="380" width="430" height="48" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="2" /><circle cx="176" cy="404" r="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /></svg></div>
+        <h3>Расхождения</h3><p>Цены выше обычных и позиции не из заказа отмечаются сразу.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_raznica">Мне это нужно</a>
+      </article>
     </div>
   </section>
 
-  <section id="primer" data-view="example_view">
-    <h2>Пример (вымышленные данные)</h2>
-    <p class="fine">Кафе на 40 мест, 7 поставщиков. Понедельник: 9 бумажных накладных сфотографированы на приёмке. 112 позиций сопоставлены автоматически, 4 новые — сопоставлены один раз вручную. Сливки у одного поставщика дороже на 12 % — отмечено. Все приходы в iiko к 11 утра.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Выберите тариф</a>
+  <section id="primer" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Пример</h2>
+      <p>Кафе на 40 мест, 7 поставщиков. Понедельник: 9 бумажных накладных сфотографированы на приёмке. 112 позиций сопоставлены автоматически, 4 новые — сопоставлены один раз вручную. Сливки у одного поставщика дороже на 12 % — отмечено. Все приходы в iiko к 11 утра.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Выберите тариф</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="170" x2="1000" y2="170" fill="none" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="170" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="250" font-size="30" fill="#0a1524" font-weight="600" text-anchor="middle">Понедельник</text><circle cx="600" cy="170" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="250" font-size="30" fill="#0a1524" font-weight="600" text-anchor="middle">приёмке</text><circle cx="960" cy="170" r="22" fill="#12397a" stroke="#12397a" stroke-width="6" /><text x="960" y="250" font-size="30" fill="#0a1524" font-weight="600" text-anchor="middle">iiko</text><rect x="120" y="320" width="960" height="400" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="410" font-size="34" fill="#0a1524" font-weight="600">Все приходы в iiko</text><rect x="170" y="470" width="64" height="64" fill="#dfe8f7" rx="12" stroke="#dde2ea" stroke-width="2" /><rect x="260" y="470" width="64" height="64" fill="#12397a" rx="12" stroke="#dde2ea" stroke-width="2" /><rect x="350" y="470" width="64" height="64" fill="#dfe8f7" rx="12" stroke="#dde2ea" stroke-width="2" /><rect x="440" y="470" width="64" height="64" fill="#dfe8f7" rx="12" stroke="#dde2ea" stroke-width="2" /><rect x="530" y="470" width="64" height="64" fill="#dfe8f7" rx="12" stroke="#dde2ea" stroke-width="2" /><rect x="170" y="580" width="520" height="24" fill="#dde2ea" rx="12" /><rect x="170" y="630" width="360" height="24" fill="#b9c3d2" rx="12" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Как это работает</h2>
-    <p>В ресторане или кафе каждый день приходят поставки, и у многих поставщиков накладные по-прежнему бумажные. Кто-то — администратор, шеф или бухгалтер — вечером переносит их в iiko позиция за позицией и сопоставляет названия поставщика с номенклатурой заведения. На одну накладную уходит пять–десять минут, на неделю — часы, а ошибки в вводе портят себестоимость и остатки.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Как это работает</h2></div>
+    <div class="stack">
+      <p>В ресторане или кафе каждый день приходят поставки, и у многих поставщиков накладные по-прежнему бумажные. Кто-то — администратор, шеф или бухгалтер — вечером переносит их в iiko позиция за позицией и сопоставляет названия поставщика с номенклатурой заведения. На одну накладную уходит пять–десять минут, на неделю — часы, а ошибки в вводе портят себестоимость и остатки.</p>
     <p>Накладные в iiko убирают ручной ввод. При приёмке поставки сотрудник фотографирует накладную телефоном или загружает её PDF. Сервис распознаёт поставщика, дату, номер, позиции, количество и цены.</p>
     <p>Дальше каждая позиция сопоставляется с номенклатурой вашего заведения в iiko или Syrve. В первый раз некоторые позиции нужно сопоставить вручную: «сливки 33 % 1 л» у поставщика — это ваши «сливки 33 %». Сервис запоминает это сопоставление, и в следующий раз позиция сопоставится сама. Через пару недель почти все накладные проходят без ручного шага.</p>
     <p>Сопоставленная накладная загружается в iiko как приходная на нужный склад. Вы проверяете итог и проводите её. Если в накладной есть позиции, которых не было в заказе, или цена заметно выше обычной, это отмечается сразу, и можно поговорить с поставщиком, пока товар ещё на кухне.</p>
@@ -105,31 +139,34 @@
     <p>Если поставщик меняет названия позиций или упаковку, сервис отмечает новую позицию и просит сопоставить её один раз. Если в накладной ошибка поставщика — например, лишняя позиция или неверная сумма, — это видно до проведения, и можно сразу запросить исправленный документ.</p>
     <p>Для сетей из нескольких заведений накладные каждой точки загружаются на свой склад, а управляющий видит приходы и цены по всем точкам в одном отчёте.</p>
     <p>Мы не являемся разработчиком iiko или Syrve и не действуем от их имени; сервис работает с вашей учётной системой через доступ, который вы предоставляете.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Вопросы и ответы</h2>
-    <h3>С какими системами работает сервис?</h3>
-    <p>С iiko и Syrve.</p>
-    <h3>Нужно ли сопоставлять позиции каждый раз?</h3>
-    <p>Нет. Сопоставление запоминается, и следующие накладные проходят сами.</p>
-    <h3>Можно ли загружать PDF?</h3>
-    <p>Да, фото с телефона или PDF.</p>
-    <h3>Видно ли изменение цен поставщиков?</h3>
-    <p>Да, цены выше обычных отмечаются при приёмке и видны в отчёте.</p>
-    <h3>Можно ли пользоваться уже сейчас?</h3>
-    <p>Пока нет. Сервис в подготовке, мы проверяем, нужен ли он заведениям.</p>
+    <div class="stack"><h2>Вопросы и ответы</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>С какими системами работает сервис?</h3><p>С iiko и Syrve.</p></div>
+      <div class="split flip"><h3>Нужно ли сопоставлять позиции каждый раз?</h3><p>Нет. Сопоставление запоминается, и следующие накладные проходят сами.</p></div>
+      <div class="split flip"><h3>Можно ли загружать PDF?</h3><p>Да, фото с телефона или PDF.</p></div>
+      <div class="split flip"><h3>Видно ли изменение цен поставщиков?</h3><p>Да, цены выше обычных отмечаются при приёмке и видны в отчёте.</p></div>
+      <div class="split flip"><h3>Можно ли пользоваться уже сейчас?</h3><p>Пока нет. Сервис в подготовке, мы проверяем, нужен ли он заведениям.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Загрузите первую накладную</h2>
-    <p><label>Сколько бумажных накладных в месяц<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— выберите —</option><option>До 50</option><option>50–100</option><option>100–300</option><option>Больше 300</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Загрузить накладную</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Загрузите первую накладную</h2>
+    </div>
+    <div class="tile stack">
+      <label>Сколько бумажных накладных в месяц<select data-ev-focus="form_start"><option value="">— выберите —</option><option>До 50</option><option>50–100</option><option>100–300</option><option>Больше 300</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Загрузить накладную</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Накладные в iiko</b></p>
   <p>Оператор: ИП Гудев Роман, ИНН 615007167949 &middot; <a href="privacy.html" data-ev="click_legal_privacy">Политика обработки персональных данных</a></p>
-  <p class="muted">Мы не разработчик iiko или Syrve и не действуем от их имени. Проведение документов и учёт — за заведением.</p>
+  <p>Мы не разработчик iiko или Syrve и не действуем от их имени. Проведение документов и учёт — за заведением.</p>
 </div></footer>
 
 </body>
